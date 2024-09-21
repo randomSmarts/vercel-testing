@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "prepare": "npm run vercel-build",
     "build": "next build",
     "dev": "next dev",
     "start": "next start"
